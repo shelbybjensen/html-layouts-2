@@ -1,0 +1,64 @@
+div {
+  height: 150px;
+  width: 350px;
+  background-color: red;
+  display: inline-block;
+  margin-left: 20px
+}
+
+.redbox {
+  background-color: #cc0000;
+}
+
+.bluebox {
+  background-color:#5ba1f0;
+}
+
+.graybox {
+  background-color: #676a6d;
+}
+
+span {
+  color: gray;
+  font-family: tahoma;
+  font-size: 20px;
+  display: block;
+  margin: 5%;
+}
+
+.longbox {
+  background-color: #cc0000;
+  height: 300px;
+  width: 450px;
+  float: left;
+  margin-right: -20px;
+}
+
+.longerbox {
+  background-color: #5ba1f0;
+  height: 300px;
+  width: 650px;
+}
+
+.outer {
+  background-color: #5ba1f0;
+  width: 97.5%;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.middle {
+  background-color: #cc0000;
+  display: inline-block;
+  position: relative;
+  float: right;
+  
+}
+
+.inner {
+  background-color: #676a6d;
+  position: relative;
+  width: 85%;
+  margin-left: 8%;
+  float: center;
+}
